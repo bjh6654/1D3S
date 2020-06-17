@@ -62,6 +62,8 @@ int bridge(int a, queue<loc> que, vector<vector<bool>> visit, int step) {
 }
 
 int main() {
+	ios_base::sync_with_stdio(0);	cin.tie(0);
+	
 	cin >> N;
 	
 	for ( int r = 0; r < N; r++ )
