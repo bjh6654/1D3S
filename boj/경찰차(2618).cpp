@@ -11,7 +11,7 @@ int getDist(vector<int> a, vector<int> b) {
 int main() {
   ios_base :: sync_with_stdio(false);
   cin.tie(NULL);
-  // cout.tie(NULL);
+  cout.tie(NULL);
 
 	int N, W;
 	cin >> N >> W;
@@ -53,7 +53,7 @@ int main() {
 		}
 	}
 
-	cout << result << "\n";
+	cout << result << "\n";	
 
 	vector<int> answer;
 	while (first || second) {
